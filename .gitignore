@@ -1,6 +1,14 @@
+# Ignore the build related directories.
 dist/
-Docs/
 node_modules/
+
+# Ignore the temporary directories.
+Docs/
+Temp/
+Test/
+
+# Ignore the Harness configuration directories.
 .trae/
 
+# Ignore the environment variable files.
 .env
